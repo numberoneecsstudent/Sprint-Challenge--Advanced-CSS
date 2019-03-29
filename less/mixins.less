@@ -1,1 +1,13 @@
 // Mixins Here
+.sign-up-button(@font-color:white;  @background-color: black; ){
+    background-color: @background-color; 
+    color: @font-color; 
+    :hover{
+        @background-color: white; 
+        @font-color: black; 
+    }
+}  
+.sign-up-button:hover{
+    background-color: white;
+    color: black;
+}
